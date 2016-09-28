@@ -14,6 +14,8 @@
 		CFC2E8111D9C682B000A1001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC2E80F1D9C682B000A1001 /* LaunchScreen.storyboard */; };
 		CFC2E81C1D9C682B000A1001 /* SolarSystem_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC2E81B1D9C682B000A1001 /* SolarSystem_CTests.m */; };
 		CFC2E8271D9C682B000A1001 /* SolarSystem_CUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC2E8261D9C682B000A1001 /* SolarSystem_CUITests.m */; };
+		CFC2E8361D9C69F5000A1001 /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC2E8351D9C69F5000A1001 /* Planet.m */; };
+		CFC2E8391D9C7397000A1001 /* PlanetController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC2E8381D9C7397000A1001 /* PlanetController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		CFC2E8221D9C682B000A1001 /* SolarSystem CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SolarSystem CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC2E8261D9C682B000A1001 /* SolarSystem_CUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolarSystem_CUITests.m; sourceTree = "<group>"; };
 		CFC2E8281D9C682B000A1001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC2E8341D9C69F5000A1001 /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planet.h; sourceTree = "<group>"; };
+		CFC2E8351D9C69F5000A1001 /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Planet.m; sourceTree = "<group>"; };
+		CFC2E8371D9C7397000A1001 /* PlanetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetController.h; sourceTree = "<group>"; };
+		CFC2E8381D9C7397000A1001 /* PlanetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 				CFC2E8041D9C682B000A1001 /* AppDelegate.h */,
 				CFC2E8051D9C682B000A1001 /* AppDelegate.m */,
 				CFC2E80A1D9C682B000A1001 /* Main.storyboard */,
+				CFC2E8341D9C69F5000A1001 /* Planet.h */,
+				CFC2E8351D9C69F5000A1001 /* Planet.m */,
+				CFC2E8371D9C7397000A1001 /* PlanetController.h */,
+				CFC2E8381D9C7397000A1001 /* PlanetController.m */,
 				CFC2E80D1D9C682B000A1001 /* Assets.xcassets */,
 				CFC2E80F1D9C682B000A1001 /* LaunchScreen.storyboard */,
 				CFC2E8121D9C682B000A1001 /* Info.plist */,
@@ -266,7 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFC2E8061D9C682B000A1001 /* AppDelegate.m in Sources */,
+				CFC2E8391D9C7397000A1001 /* PlanetController.m in Sources */,
 				CFC2E8031D9C682B000A1001 /* main.m in Sources */,
+				CFC2E8361D9C69F5000A1001 /* Planet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
