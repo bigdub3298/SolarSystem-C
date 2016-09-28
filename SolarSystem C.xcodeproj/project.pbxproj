@@ -16,6 +16,7 @@
 		CFC2E8271D9C682B000A1001 /* SolarSystem_CUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC2E8261D9C682B000A1001 /* SolarSystem_CUITests.m */; };
 		CFC2E8361D9C69F5000A1001 /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC2E8351D9C69F5000A1001 /* Planet.m */; };
 		CFC2E8391D9C7397000A1001 /* PlanetController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC2E8381D9C7397000A1001 /* PlanetController.m */; };
+		CFC2E83C1D9C7BA8000A1001 /* PlanetListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC2E83B1D9C7BA8000A1001 /* PlanetListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		CFC2E8351D9C69F5000A1001 /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Planet.m; sourceTree = "<group>"; };
 		CFC2E8371D9C7397000A1001 /* PlanetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetController.h; sourceTree = "<group>"; };
 		CFC2E8381D9C7397000A1001 /* PlanetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetController.m; sourceTree = "<group>"; };
+		CFC2E83A1D9C7BA8000A1001 /* PlanetListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetListTableViewController.h; sourceTree = "<group>"; };
+		CFC2E83B1D9C7BA8000A1001 /* PlanetListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,13 +109,15 @@
 			children = (
 				CFC2E8041D9C682B000A1001 /* AppDelegate.h */,
 				CFC2E8051D9C682B000A1001 /* AppDelegate.m */,
-				CFC2E80A1D9C682B000A1001 /* Main.storyboard */,
 				CFC2E8341D9C69F5000A1001 /* Planet.h */,
 				CFC2E8351D9C69F5000A1001 /* Planet.m */,
 				CFC2E8371D9C7397000A1001 /* PlanetController.h */,
 				CFC2E8381D9C7397000A1001 /* PlanetController.m */,
-				CFC2E80D1D9C682B000A1001 /* Assets.xcassets */,
+				CFC2E83A1D9C7BA8000A1001 /* PlanetListTableViewController.h */,
+				CFC2E83B1D9C7BA8000A1001 /* PlanetListTableViewController.m */,
+				CFC2E80A1D9C682B000A1001 /* Main.storyboard */,
 				CFC2E80F1D9C682B000A1001 /* LaunchScreen.storyboard */,
+				CFC2E80D1D9C682B000A1001 /* Assets.xcassets */,
 				CFC2E8121D9C682B000A1001 /* Info.plist */,
 				CFC2E8011D9C682B000A1001 /* Supporting Files */,
 			);
@@ -277,6 +282,7 @@
 			files = (
 				CFC2E8061D9C682B000A1001 /* AppDelegate.m in Sources */,
 				CFC2E8391D9C7397000A1001 /* PlanetController.m in Sources */,
+				CFC2E83C1D9C7BA8000A1001 /* PlanetListTableViewController.m in Sources */,
 				CFC2E8031D9C682B000A1001 /* main.m in Sources */,
 				CFC2E8361D9C69F5000A1001 /* Planet.m in Sources */,
 			);
@@ -502,6 +508,7 @@
 				CFC2E82D1D9C682B000A1001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFC2E82E1D9C682B000A1001 /* Build configuration list for PBXNativeTarget "SolarSystem CTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +517,7 @@
 				CFC2E8301D9C682B000A1001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFC2E8311D9C682B000A1001 /* Build configuration list for PBXNativeTarget "SolarSystem CUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +526,7 @@
 				CFC2E8331D9C682B000A1001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
