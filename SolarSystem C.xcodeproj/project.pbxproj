@@ -17,6 +17,7 @@
 		CFC2E8361D9C69F5000A1001 /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC2E8351D9C69F5000A1001 /* Planet.m */; };
 		CFC2E8391D9C7397000A1001 /* PlanetController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC2E8381D9C7397000A1001 /* PlanetController.m */; };
 		CFC2E83C1D9C7BA8000A1001 /* PlanetListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC2E83B1D9C7BA8000A1001 /* PlanetListTableViewController.m */; };
+		CFC2E83F1D9C925E000A1001 /* PlanetDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC2E83E1D9C925E000A1001 /* PlanetDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		CFC2E8381D9C7397000A1001 /* PlanetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetController.m; sourceTree = "<group>"; };
 		CFC2E83A1D9C7BA8000A1001 /* PlanetListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetListTableViewController.h; sourceTree = "<group>"; };
 		CFC2E83B1D9C7BA8000A1001 /* PlanetListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetListTableViewController.m; sourceTree = "<group>"; };
+		CFC2E83D1D9C925E000A1001 /* PlanetDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetDetailViewController.h; sourceTree = "<group>"; };
+		CFC2E83E1D9C925E000A1001 /* PlanetDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				CFC2E8381D9C7397000A1001 /* PlanetController.m */,
 				CFC2E83A1D9C7BA8000A1001 /* PlanetListTableViewController.h */,
 				CFC2E83B1D9C7BA8000A1001 /* PlanetListTableViewController.m */,
+				CFC2E83D1D9C925E000A1001 /* PlanetDetailViewController.h */,
+				CFC2E83E1D9C925E000A1001 /* PlanetDetailViewController.m */,
 				CFC2E80A1D9C682B000A1001 /* Main.storyboard */,
 				CFC2E80F1D9C682B000A1001 /* LaunchScreen.storyboard */,
 				CFC2E80D1D9C682B000A1001 /* Assets.xcassets */,
@@ -285,6 +290,7 @@
 				CFC2E83C1D9C7BA8000A1001 /* PlanetListTableViewController.m in Sources */,
 				CFC2E8031D9C682B000A1001 /* main.m in Sources */,
 				CFC2E8361D9C69F5000A1001 /* Planet.m in Sources */,
+				CFC2E83F1D9C925E000A1001 /* PlanetDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

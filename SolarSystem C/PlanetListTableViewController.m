@@ -9,8 +9,9 @@
 #import "PlanetListTableViewController.h"
 #import "PlanetController.h"
 #import "Planet.h"
+#import "PlanetDetailViewController.h"
 
-@interface PlanetListTableViewController ()
+@interface PlanetListTableViewController () 
 
 @end
 
@@ -41,6 +42,18 @@
     cell.imageView.image = [UIImage imageNamed:planet.imageName]; 
     
     return cell;
+}
+
+#pragma mark - Navigation
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString: @"toPlanetDetail"]) {
+        PlanetDetailViewController *detailViewController = segue.destinationViewController;
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        Planet *selectedPlanet = [PlanetController planets][indexPath.row];
+        detailViewController.planet = selectedPlanet;
+    }
 }
 
 
